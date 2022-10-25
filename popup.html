@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"></meta>
+  	<title></title>
+    <style>
+        body {
+            padding:0;
+            margin:10px;
+        }
+        .row {
+            width:100%;
+            border:1px solid black;
+            text-align:left;
+            padding:3px;
+        }
+        .cell {
+            border-left:1px solid black;
+            float:right;
+        }
+    </style>
+</head>
+<body style="background:lightgray;padding:5px;">
+    <span><b>Unique URLs visited:</b></span>
+    <div class="row">Today:<span class="cell" id="today"></span></div>
+    <div class="row">Since Yesterday:<span class="cell" id="yesterday"></span></div>
+    <div class="row">Since 2 days ago:<span class="cell" id="twodaysago"></span></div>
+    <div class="row">Since 3 days ago:<span class="cell" id="threedaysago"></span></div>
+    <script src="popup.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,15 @@
+{
+  "author": "igorlogius",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "150": "icon.png"
+  },
+  "manifest_version": 2,
+  "name": "Unique URLs visited stats",
+  "permissions": [
+    "history"
+  ],
+  "version": "1.0.0"
+}
