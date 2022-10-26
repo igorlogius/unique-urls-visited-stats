@@ -1,4 +1,4 @@
-Show the count of unique urls which have been visited today, yesterday, 2 days and 3 days ago.
+Show the count of unique urls which have been visited each day up to seven days into the past.
 
 <b>Usage:</b>
 <ol>
